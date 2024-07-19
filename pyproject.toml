@@ -9,6 +9,3 @@ dependencies = [
     "matplotlib"
 ]
 
-
-
-[build-system]
