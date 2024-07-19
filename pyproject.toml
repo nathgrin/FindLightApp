@@ -1,0 +1,14 @@
+[project]
+name = "FindLightApp"
+description = "FindLightApp"
+version = "0.1.0"
+authors = [
+    { name = "NJG" }
+]
+dependencies = [
+    "matplotlib"
+]
+
+
+
+[build-system]
