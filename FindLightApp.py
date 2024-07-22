@@ -382,12 +382,13 @@ class mplApp:
         plt.rcParams['keymap.back'].remove('left')
         plt.rcParams['keymap.pan'].remove('p')
         plt.rcParams['keymap.zoom'].remove('o')
-        # plt.rcParams['keymap.fullscreen'].remove('f')
+        plt.rcParams['keymap.fullscreen'].remove('f')
         plt.rcParams['keymap.forward'].remove('v')
         plt.rcParams['keymap.forward'].remove('right')
         plt.rcParams['keymap.quit'].remove('ctrl+w')
         plt.rcParams['keymap.quit'].remove('cmd+w')
         plt.rcParams['keymap.quit'].remove('q')
+        # self.fig.canvas.mpl_disconnect(fig.canvas.manager.key_press_handler_id)
         
         
     def disconnect_canvas(self):
