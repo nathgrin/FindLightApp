@@ -483,6 +483,7 @@ class mplApp:
                                color=self.obj_options['color'],
                                ax=ax)
         self.add_object(obj)
+        self.select_obj(self.objs[-1])
         self.redraw_canvas()
         
     def key_move_selected(self,event):
